@@ -139,6 +139,7 @@ local function setup(configs)
       ['@string.regex'] = { fg = colors.red, },
       ['@string'] = { fg = colors.yellow, },
       ['@string.escape'] = { fg = colors.cyan, },
+      ['@string.plain.css'] = { fg = colors.purple },
       ['@character'] = { fg = colors.yellow, },
       ['@number'] = { fg = colors.purple, },
       ['@boolean'] = { fg = colors.purple, },
@@ -155,6 +156,12 @@ local function setup(configs)
       ['@method'] = { fg = colors.green, },
       ['@field'] = { fg = colors.orange, },
       ['@property'] = { fg = colors.purple, },
+      ['@property.css'] = { fg = colors.cyan },
+      ['@property.class.css'] = { fg = colors.green },
+      ['@property.id'] = { fg = colors.green },
+      ['@property.javascript'] = { fg = colors.purple },
+      ['@property.json'] = { fg = colors.cyan },
+      ['@property.typescript'] = { fg = colors.purple },
       ['@constructor'] = { fg = colors.cyan, },
 
       ['@conditional'] = { fg = colors.pink, },
@@ -169,6 +176,7 @@ local function setup(configs)
       ['@type'] = { fg = colors.bright_cyan, },
       ['@type.builtin'] = { fg = colors.cyan, italic = true, },
       ['@type.qualifier'] = { fg = colors.pink, },
+      ['@type.tag'] = { fg = colors.pink },
       ['@structure'] = { fg = colors.purple, },
       ['@include'] = { fg = colors.pink, },
 
@@ -180,9 +188,11 @@ local function setup(configs)
       ['@text.emphasis'] = { fg = colors.yellow, italic = true, }, -- italic
       ['@text.underline'] = { fg = colors.orange, },
       ['@text.title'] = { fg = colors.fg, bold = true, }, -- title
+      ['@text.title.markdown'] = { fg = colors.purple },
       ['@text.literal'] = { fg = colors.yellow, }, -- inline code
       ['@text.uri'] = { fg = colors.yellow, italic = true, }, -- urls
-      ['@text.reference'] = { fg = colors.orange, bold = true, },
+      ['@text.uri.markdown'] = { fg = colors.purple },
+      ['@text.reference'] = { fg = colors.pink, bold = true, },
 
       ['@tag'] = { fg = colors.pink, },
       ['@tag.attribute'] = { fg = colors.green, },
