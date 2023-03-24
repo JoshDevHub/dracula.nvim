@@ -131,7 +131,7 @@ local function setup(configs)
       ['@punctuation.bracket'] = { fg = colors.fg, },
       ['@punctuation.special'] = { fg = colors.cyan, },
 
-      ['@constant'] = { fg = colors.cyan, },
+      ['@constant'] = { fg = colors.purple, },
       ['@constant.builtin'] = { fg = colors.cyan, },
       ['@symbol'] = { fg = colors.purple, },
 
