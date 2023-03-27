@@ -132,7 +132,7 @@ local function setup(configs)
       ['@punctuation.special'] = { fg = colors.cyan, },
 
       ['@constant'] = { fg = colors.purple, },
-      ['@constant.builtin'] = { fg = colors.cyan, },
+      ['@constant.builtin'] = { fg = colors.purple, },
       ['@symbol'] = { fg = colors.purple, },
 
       ['@constant.macro'] = { fg = colors.cyan, },
