@@ -129,7 +129,7 @@ local function setup(configs)
       ['@error'] = { fg = colors.bright_red, },
       ['@punctuation.delimiter'] = { fg = colors.fg, },
       ['@punctuation.bracket'] = { fg = colors.fg, },
-      ['@punctuation.special'] = { fg = colors.cyan, },
+      ['@punctuation.special'] = { fg = colors.pink, },
 
       ['@constant'] = { fg = colors.purple, },
       ['@constant.builtin'] = { fg = colors.purple, },
