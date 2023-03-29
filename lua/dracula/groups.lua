@@ -210,7 +210,7 @@ local function setup(configs)
       ['@typeParameter'] = { fg = colors.cyan },
       ['@decorator'] = { fg = colors.cyan },
 
-      ['@none'] = { fg = colors.fg }
+      ['@none'] = { fg = colors.fg },
 
       -- HTML
       htmlArg = { fg = colors.green, },
